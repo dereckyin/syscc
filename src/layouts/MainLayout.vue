@@ -6,6 +6,7 @@
         v-model="slide"
         arrows
         navigation
+        swipeable
         :autoplay="6000"
         infinite
         height="220px"
