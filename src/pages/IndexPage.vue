@@ -299,48 +299,59 @@
     </div>
 
     <!-- place QPageSticky at end of page -->
-    <q-page-sticky expand position="top" class="gt-sm" style="opacity: 0.8">
+    <q-page-sticky expand position="top" class="gt-sm" style="opacity: 1">
       <q-toolbar class="bg-accent text-black">
         <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('ems')"
           style="cursor: pointer"
+          shrink
         >
           EMS 平台
         </q-toolbar-title>
+        <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('webmail')"
           style="cursor: pointer"
+          shrink
         >
           校園Webmail信箱
         </q-toolbar-title>
+        <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('wifi')"
           style="cursor: pointer"
+          shrink
         >
           無線網路
         </q-toolbar-title>
+        <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('vpn')"
           style="cursor: pointer"
+          shrink
         >
           SSL VPN連線
         </q-toolbar-title>
+        <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('software')"
           style="cursor: pointer"
+          shrink
         >
           軟體下載
         </q-toolbar-title>
+        <q-space />
         <q-toolbar-title
           clickable
           @click="scrollMeTo('office')"
           style="cursor: pointer"
+          shrink
         >
           微軟 Office 365
         </q-toolbar-title>
