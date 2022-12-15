@@ -10,9 +10,11 @@
  * Boot files are your "main.js"
  **/
 
+import lang from 'quasar/lang/zh-tw'
 
 
 
 
-export default { config: {} }
+
+export default { config: {},lang }
 
