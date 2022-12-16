@@ -7,7 +7,7 @@
           </q-item-section>
           <q-item-section class="col-xs-12 col-sm-6 col-md-4 center">
             <q-item-label
-              ><p class="text-h4">{{ $t("title") }}</p></q-item-label
+              ><p class="text-h4">校園網路服務</p></q-item-label
             ></q-item-section
           >
           <q-item-section
